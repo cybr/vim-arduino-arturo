@@ -1,6 +1,6 @@
 # Vim Arduino Arturo
 
-This script is a fork of [Vim Arduino Ino][vim-arduino-ino] and uses [Arturo][arturo] instead of [Ino][ino]. 
+This script is a fork of [Vim Arduino Ino][vim-arduino-ino] which uses [Arturo][arturo] instead of [Ino][ino]. 
 It runs in 64-bit environments and allows for compiling and
 deployment of Arduino (\*.pde/\*.ino) sketches directly from Vim. It also allows the use of newer versions of the arduino IDE (1.6.1 at the current moment).
 
@@ -11,7 +11,7 @@ The easiest way to install this software is a plugin-manager like [Pathogen][pat
 [Arturo][arturo] must be installed on your computer for this plugin to work.
 
 ## Usage
-Vim Arduino Ino can be run using the following keys:
+Vim Arduino Arturo can be run using the following keys:
 
 `<Leader>ac` - Compile the current sketch.
 
