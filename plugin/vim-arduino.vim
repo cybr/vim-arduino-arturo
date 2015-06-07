@@ -29,10 +29,10 @@ function! s:InvokeArduinoCli(deploy)
   execute "w"
   if a:deploy
     echomsg "Compiling and deploying..." l:f_name
-    let l:result = system("ino build && ino upload")
+    let l:result = system("ano build && ano upload")
   else
     echomsg "Compiling..." l:f_name
-    let l:result = system("ino build")
+    let l:result = system("ano build")
   endif
 
   echo l:result
